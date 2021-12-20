@@ -1,0 +1,18 @@
+#index {
+    background-image: url(polka_index_image.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.bg-rgba {
+    background:rgba(0,0,0,0.5);
+}
+
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
