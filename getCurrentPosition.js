@@ -5,7 +5,7 @@ if (navigator.geolocation) {
             var lat = data.latitude;
             var lon = data.longitude;
             let appKey = "50bc8d8918170e54292ab6a1f3713b11";
-            const forecastRequestUrl = "http://api.openweathermap.org/data/2.5/forecast?lat=" + lat + "&lon=" + lon + "&appid=" + appKey;
+            const forecastRequestUrl = "https://api.openweathermap.org/data/2.5/forecast?lat=" + lat + "&lon=" + lon + "&appid=" + appKey;
 
             let xhr = new XMLHttpRequest();
 
