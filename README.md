@@ -18,7 +18,7 @@ index.htmlのポルカおるか？ボタンを押した回数をインクリメ�
 polka.htmlにアクセスしてもらうと全出力パターンにリンクできるページに移動できます。
   
 # 感謝  
-私はコンピュータサイエンスを学習し始めて日が浅いです。それでもこのようなアプリを創ろうと思えたのは一重に尾丸ポルカ氏の影響でしょう。周囲の人間のクリエイティビティを促進する尾丸ポルカ氏の能力は唯一無二だと思います。完璧ではない何かでもとりあえず創って公開してみようという勇気を貰えている気がするのです。このアプリを創っている最中とても楽しかったです。これからも尾丸ポルカと共に歩んでいける人生を最大限に楽しみたいと思いつつ結びとさせていただきます。プロジェクトに目を通していただきありがとうございました。
+私はコンピュータサイエンスを学習し始めて日が浅いです。それでもこのようなアプリを創ろうと思えたのは一重に尾丸ポルカ氏の影響でしょう。周囲の人間のクリエイティビティを促進する尾丸ポルカ氏の能力は唯一無二だと思います。完璧ではない何かでもとりあえず創って公開してみようという気持ちが湧いてくるのです。このアプリを創っている最中とても楽しかったです。これからも尾丸ポルカと共に歩んでいける人生を最大限に楽しみたいと思いつつ結びとさせていただきます。プロジェクトに目を通していただきありがとうございました。
   
   
 ## 【English】  
@@ -30,7 +30,7 @@ This application obtains the user's location information (latitude and longitude
 Three patterns have been implemented when Polka is present (Polka-Oruyo),   
 and two patterns have been implemented when Polka is not present (Polka-Oran).  
 The judgment conditions are  
-If the pressure change in 6 hours is greater than 3 hPa, about 10%, and play times is more than 3 times => Polka-Oran (???)  
+If the pressure change in 6 hours is greater than 3 hPa, about 10%, and play times is more than 2 times => Polka-Oran (???)  
 Greater than 3 hPa => Polka-Oran (low air pressure loser club song)  
 Less than or equal to 3 hPa, current pressure greater than or equal to 1013 hPa, and about 10% => Polka-Oruyo (Po)  
 Less than or equal to 3 hPa and current pressure is 1013 hPa or higher => Polka-Oruyo (Pastel Tea Time)  
@@ -41,7 +41,7 @@ The number of times you press the Polka-Oruka? button in index.html is increment
 If you access polka.html, you will access to a page where you can link to all the output patterns.  
   
 # Thanks  
-I have only been studying computer science for a short time. Even so, I was inspired to create such an app by Polka . I believe that Polka's ability to promote the creativity of the people around her is unique. I feel that she has given me the courage to create and publish something, even if it is not perfect. I had a lot of fun while making this app. I conclude by saying that I would like to enjoy my life with Polka as much as possible. Thank you very much for taking the time to read through this project.
+I have only been studying computer science for a short time. Even so, I was inspired to create such an app by Polka . I believe that Polka's ability to promote the creativity of the people around her is unique. I feel that she has motivated me to create and publish something, even if it is not perfect. I had a lot of fun while making this app. I conclude by saying that I would like to enjoy my life with Polka as much as possible. Thank you very much for taking the time to read through this project.
   
 
 # References    
