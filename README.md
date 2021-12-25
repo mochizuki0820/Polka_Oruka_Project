@@ -1,10 +1,13 @@
 # Polka_Oruka_Project  
 ユーザーの位置情報(緯度、経度)を取得し、天気情報APIのOpenWeatherMap(https://openweathermap.org/) から  
 現在の気圧と6時間後の気圧を取得、評価してポルカがおるかどうか判定するアプリケーションです。  
+(ポルカおるか？とは配信開始時などで用いられる便利な挨拶のようなものです)  
+(尾丸ポルカ氏は常々気圧変動に伴う体調変化に苦しむ旨の発言をしており、その発言から着想を得たアプリです)  
 (配信の予測などが出来るようなものではありません。ジョークアプリの類であることをご理解いただけているとありがたいです)  
   
 # 出力パターン  
 ポルカおる場合に3パターン、おらん場合に2パターン実装しました。  
+出力するのは彼女のオリジナル楽曲と動画、ファンメイド楽曲です。
 判定条件は 
 6時間での気圧変動が3hPaより大きくかつ約10%かつプレイ回数が3回以上⇒おらん(???)  
 3hPaより大きい⇒おらん(低気圧敗北部の歌)  
@@ -24,11 +27,14 @@ polka.htmlにアクセスしてもらうと全出力パターンにリンクで�
 ## 【English】  
 # Polka_Oruka_Project 
 This application obtains the user's location information (latitude and longitude) and gets the current and six-hour air pressure from the weather API OpenWeatherMap(https://openweathermap.org/), evaluates them, and judges whether Polka Oruka.  
+(Polka Oruka? is a convenient greeting used at the start of distribution, etc)  
+(Omaru Polka has always said that she suffers from changes in her physical and mental condition due to changes in atmospheric pressure, and this application was inspired by that statement)  
 (It's not something that can predict streaming or anything like that. I would appreciate it if you understand that this is a joke app of sorts.)   
   
 # Outputs pattern  
 Three patterns have been implemented when Polka is present (Polka-Oruyo),   
 and two patterns have been implemented when Polka is not present (Polka-Oran).  
+The output will be her original music, videos, and fan-made music.  
 The judgment conditions are  
 If the pressure change in 6 hours is greater than 3 hPa, about 10%, and play times is more than 2 times => Polka-Oran (???)  
 Greater than 3 hPa => Polka-Oran (low air pressure loser club song)  
